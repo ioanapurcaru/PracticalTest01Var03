@@ -7,15 +7,16 @@
     android:orientation="vertical"
     tools:context=".PracticalTest01Var03MainActivity">
 
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="#03A9F4"
-        android:text="Practical Test 1 Var 2"
-        android:textAlignment="viewStart"
+<!--    <EditText-->
+<!--        android:id="@+id/editText1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:background="#03A9F4"-->
+<!--        android:text="Practical Test 1 Var 2"-->
+<!--        android:textAlignment="viewStart"-->
 
-        ></EditText>
+
+<!--        ></EditText>-->
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,6 +27,7 @@
             android:id="@+id/editText_firstTerm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:saveEnabled="false"
             android:hint="First Term"/>
 
     </LinearLayout>
@@ -65,10 +67,10 @@
             android:id="@+id/editText_secondTerm"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:saveEnabled="false"
             android:hint="Second Term"/>
 
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

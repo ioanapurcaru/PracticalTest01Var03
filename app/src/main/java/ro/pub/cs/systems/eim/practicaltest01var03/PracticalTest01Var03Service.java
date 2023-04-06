@@ -26,7 +26,7 @@ public class PracticalTest01Var03Service  extends Service {
 
     @Override
     public void onDestroy() {
-        Log.d("Colocviu_Service1", "Service has stopped!");
+        Log.d("PracticalTest01Var03Service", "Service has stopped!");
         processingThread.stopThread();
     }
 }
